@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    display: flex;
+}
+.leftBox {
+    background-color: gray;
+    width: 350px;
+    padding: 50px;
+}
+.rightBox {
+    width: 100%;
+}
+
+.user-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.name-con {
+    border: 0px solid black;
+    margin-top: 70px 
+    ;
+}
+.name-con > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase ;
+    font-size: 40px;
+    padding-left: 450px;
+}
+.name-con > h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:none ;
+    font-size: small;
+    padding-left: 450px;
+}
